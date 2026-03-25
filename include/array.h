@@ -29,4 +29,7 @@ class Array{
 
     int size() const;
     void print() const;
+    // Element-wise operations
+    Array add(const Array& other) const;
+    Array subtract(const Array& other) const;
 };

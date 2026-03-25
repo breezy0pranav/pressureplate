@@ -39,3 +39,27 @@ void Array::print() const {
     }
     std::cout << "])" << std::endl;
 }
+
+// Element-wise add
+Array Array::add(const Array& other) const {
+    if (shape != other.shape) {
+        throw std::invalid_argument("Shape mismatch: arrays must have the same shape");
+    }
+    std::vector<float> result(data.size());
+    for (int i = 0; i < data.size(); i++) {
+        result[i] = data[i] + other.data[i];
+    }
+    return Array(result, shape, device, dtype);
+}
+
+// Element-wise subtract
+Array Array::subtract(const Array& other) const {
+    if (shape != other.shape) {
+        throw std::invalid_argument("Shape mismatch: arrays must have the same shape");
+    }
+    std::vector<float> result(data.size());
+    for (int i = 0; i < data.size(); i++) {
+        result[i] = data[i] - other.data[i];
+    }
+    return Array(result, shape, device, dtype);
+}
