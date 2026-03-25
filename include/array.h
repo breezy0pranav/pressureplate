@@ -32,4 +32,6 @@ class Array{
     // Element-wise operations
     Array add(const Array& other) const;
     Array subtract(const Array& other) const;
+    // Matrix multiplication
+    Array matmul(const Array& other) const;
 };
