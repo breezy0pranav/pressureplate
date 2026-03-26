@@ -35,19 +35,31 @@ b = pl.Array([1,2,3,4], [2, 2], pl.Device.GPU)
 c = pl.Array([1,2,3,4], [2, 2], pl.Device.GPU, pl.DType.FLOAT32)
 
 a.print()
+
 a.size()
+
 a.shape()
+
 a.data()
+
 a.Device.CPU
+
 a.Device.GPU
+
 a.DType.FLOAT32
+
 a.DType.FLOAT64
 
 add= a+b
+
 add.print()
+
 sub= a-b
+
 sub.print()
+
 mul= a@b
+
 mul.print()
 
 # My thoughts and plans
