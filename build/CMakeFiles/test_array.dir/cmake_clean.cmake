@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_array.dir/src/array.cpp.obj"
-  "CMakeFiles/test_array.dir/src/array.cpp.obj.d"
-  "CMakeFiles/test_array.dir/src/main.cpp.obj"
-  "CMakeFiles/test_array.dir/src/main.cpp.obj.d"
-  "libtest_array.dll.a"
-  "test_array.exe"
-  "test_array.exe.manifest"
+  "CMakeFiles/test_array.dir/src/array.cpp.o"
+  "CMakeFiles/test_array.dir/src/array.cpp.o.d"
+  "CMakeFiles/test_array.dir/src/main.cpp.o"
+  "CMakeFiles/test_array.dir/src/main.cpp.o.d"
+  "test_array"
   "test_array.pdb"
 )
 

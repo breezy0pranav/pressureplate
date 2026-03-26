@@ -1,3 +1,1 @@
-C:\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\test_array.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\test_array.dir/objects.a @CMakeFiles\test_array.dir\objects1.rsp
-C:\msys64\ucrt64\bin\g++.exe -Wl,--whole-archive CMakeFiles\test_array.dir/objects.a -Wl,--no-whole-archive -o test_array.exe -Wl,--out-implib,libtest_array.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_array.dir\linkLibs.rsp
+/usr/bin/g++ CMakeFiles/test_array.dir/src/array.cpp.o CMakeFiles/test_array.dir/src/main.cpp.o -o test_array 

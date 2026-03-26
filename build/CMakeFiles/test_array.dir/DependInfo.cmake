@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/singh/Desktop/McGills/Self MLJ/Pressure Plate/pressureplate/src/array.cpp" "CMakeFiles/test_array.dir/src/array.cpp.obj" "gcc" "CMakeFiles/test_array.dir/src/array.cpp.obj.d"
-  "C:/Users/singh/Desktop/McGills/Self MLJ/Pressure Plate/pressureplate/src/main.cpp" "CMakeFiles/test_array.dir/src/main.cpp.obj" "gcc" "CMakeFiles/test_array.dir/src/main.cpp.obj.d"
+  "/mnt/c/Users/singh/Desktop/McGills/Self MLJ/Pressure Plate/pressureplate/src/array.cpp" "CMakeFiles/test_array.dir/src/array.cpp.o" "gcc" "CMakeFiles/test_array.dir/src/array.cpp.o.d"
+  "/mnt/c/Users/singh/Desktop/McGills/Self MLJ/Pressure Plate/pressureplate/src/main.cpp" "CMakeFiles/test_array.dir/src/main.cpp.o" "gcc" "CMakeFiles/test_array.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
