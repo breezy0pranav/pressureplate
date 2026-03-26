@@ -1,0 +1,3 @@
+C:\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\pressureplate.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\pressureplate.dir/objects.a @CMakeFiles\pressureplate.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -shared -o pressureplate.cp313-win_amd64.pyd -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\pressureplate.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\pressureplate.dir\linkLibs.rsp
