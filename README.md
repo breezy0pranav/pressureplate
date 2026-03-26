@@ -1,4 +1,4 @@
-# Pressureplate Version Alpha 1.0
+# Pressureplate Version InDev 1.0
 
 Pressureplate is a Python library with a C++ backend for matrix operations with CPU and GPU support.
 
