@@ -30,8 +30,11 @@ import pressureplate as pl
 pl.Array(data, shape, device, dtype)   - Syntax to initialise an array
 
  Example of the above Syntax
+ 
 a = pl.Array([1,2,3,4], [2, 2])
+
 b = pl.Array([1,2,3,4], [2, 2], pl.Device.GPU)
+
 c = pl.Array([1,2,3,4], [2, 2], pl.Device.GPU, pl.DType.FLOAT32)
 
 a.print()
