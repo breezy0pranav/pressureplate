@@ -14,20 +14,22 @@ The core logic is written in C++ and exposed to Python using pybind11.
 4. Basic device flag (CPU / GPU)
 
 # Benchmarks
-Size        CPU(ms)   GPU(ms)
-64x64       0.90      0.86
-128x128     6.69      6.55
-256x256     52.17     52.72
-512x512     452.52    445.45
-1024x1024   4710.98   4557.43
+## Benchmarks
 
-(read My thughts section to see why the speeds are so low even with a GPU)
+| Size       | CPU (ms) | GPU (ms) | Speedup |
+|------------|----------|----------|---------|
+| 64x64      | 0.90     | 0.86     | 1.04x   |
+| 128x128    | 6.69     | 6.55     | 1.02x   |
+| 256x256    | 52.17    | 52.72    | 0.99x   |
+| 512x512    | 452.52   | 445.45   | 1.02x   |
+| 1024x1024  | 4710.98  | 4557.43  | 1.03x   |
 
-
+Note: read "My thoughts" section for why GPU speed is currently low.
 # Documentation- Usage and Syntax
 
 import pressureplate as pl
-pl.Array(data, shape, device, dtype)   - Syntax to initialise an array
+
+pl.Array(data, shape, device, dtype)                   -Syntax to initialise an array
 
  Example of the above Syntax
  
